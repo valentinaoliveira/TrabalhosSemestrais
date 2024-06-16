@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 275px;
+    padding: 15px 0;
+}
+
+
+.conteudo {
+    background-color: #FACAEA;
+    width: 100%; /* Corrigido */
+    text-align: center;
+    overflow: hidden;
+}
+
+
+h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.texto01 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+.texto02 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    margin-left: 16vh;
+}
+
+
+.texto03, .texto04, .texto05, .texto06 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    text-size-adjust: 12px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-items: auto;
+}
+
+
+.texto07 {
+    font-family: 'Times New Roman', Times, serif; /* Fonte clássica e elegante */
+    text-align: center; /* Centralizar o texto */
+    margin: 15vh 10px 10px 53vh; /* Margens ajustadas */
+    font-size: 16px; /* Tamanho da fonte ajustado */
+    font-weight: normal; /* Peso da fonte normal */
+    display: flex; /* Usar flexbox para centralização */
+    justify-content: center; /* Centralizar conteúdo horizontalmente */
+    align-items: center; /* Centralizar conteúdo verticalmente */
+    flex-direction: column; /* Disposição dos itens em coluna */
+    margin-right: 18vh;
+    float: left;
+    margin-top: 10vh;
+}
+
+
+.texto08{
+    text-align: center; /* Centralizar o texto */
+    margin: 15vh 10px 10px 53vh; /* Margens ajustadas */
+    display: flex; /* Usar flexbox para centralização */
+    justify-content: center; /* Centralizar conteúdo horizontalmente */
+    align-items: center; /* Centralizar conteúdo verticalmente */
+    flex-direction: column; /* Disposição dos itens em coluna */
+    margin-top: 10vh;
+}
+
+
+textarea{
+    resize: none;
+    background-color: rgb(230, 157, 219);
+    color: black;
+    width: 600px;
+    
+}
+
+
+.img01 {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+
+.img02 {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-left: 15vh;
+    margin-right: 8vh;
+    margin-top: 15vh;
+}
+
+
+.img04, .img05 {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+
+.img03, .img04,.img05 {
+    width: 100px;
+    height: 100px;
+    margin-right: -50px;
+    margin-top: -10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img06{
+    width: 200px;
+    height: 200px;
+    margin-left: 15vh;
+    float: left;
+    margin-top: -25vh;
+}
+
+
+.align-pair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.glitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 95%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+
+
+
+

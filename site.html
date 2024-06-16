@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configura a viewport para garantir que o site tenha um bom comportamento em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página -->
+    <title>Trabalho do 1° Semestre</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <div class="cabecalho">
+        <!-- Seção para a foto de perfil -->
+        <section class="foto-perfil">
+            <!-- Imagem da foto de perfil -->
+            <img src="./imagens/Valentina.jpg" alt="Foto de Valentina" class="perfil">
+        </section>
+        
+        <!-- Título do cabeçalho -->
+        <h1>1° Semestre</h1>
+
+        <!-- Ícone de menu, composto por três barras -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <!-- Menu de navegação, inicialmente oculto -->
+    <div class="menu" id="menu">
+        <!-- Seção com os botões das matérias -->
+        <section class="materias">
+            <!-- Botões para carregar conteúdos diferentes -->
+            <button id="ai" onclick="loadContent('AutomacaoIndustrial/ai.html')">Automação Industrial</button>
+            <button id="bd" onclick="loadContent('BancoDeDados/bd.html')">Banco de Dados</button>
+            <button id="cd" onclick="loadContent('CienciaDeDados/cd.html')">Ciência de Dados</button>
+            <button id="dw" onclick="loadContent('DesenvolvimentoWeb/dw.html')">Desenvolvimento Web</button>
+            <button id="lp" onclick="loadContent('LinguagemDeProgramacao/lp.html')">Linguagem de Programação</button>
+        </section>
+    </div>
+
+    <!-- Área de conteúdo -->
+    <div class="conteudo">
+        <!-- Iframe para carregar o conteúdo das matérias -->
+        <iframe id="conteudoFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="site.js"></script>
+</body>
+</html>

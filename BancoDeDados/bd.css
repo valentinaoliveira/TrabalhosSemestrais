@@ -1,0 +1,166 @@
+*{/* esse vai mudar*/
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.cabecalho {/* esse vai mudar*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 30vh;
+    padding: 15px 0;  
+}
+
+
+.conteudo{/* esse vai mudar*/
+    background-color: #FACAEA;
+    width: -912%;
+    text-align: center;
+    float: right 193%;
+    overflow: hidden;
+}
+
+
+.texto{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.texto01{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+
+
+.texto02{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px 20px; 
+    text-size-adjust: 12px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+
+
+h4{
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+
+h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+
+.imagem{
+    height: 300px;
+    width: 300px;
+    padding: 15px; 
+}
+
+
+.imagem02{
+    height: 150px;
+    width: 450px;
+    float: right;
+    margin-left: 10px; 
+    padding: 15px;
+}
+
+
+.imagem03{
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-right: 20px; 
+    padding: 15px;
+}
+
+ 
+.imagem04{
+    height: 150px;
+    width: 550px;
+    float: center;
+    padding: 15px; 
+}
+
+
+.imagem05{
+    height: 100px;
+    width: 500px;
+    float: center;
+    padding: 15px;
+}
+
+
+.imagem06{
+    height: 100px;
+    width: 500px;
+    float: center;
+    padding: 15px;
+}
+
+
+.imagem07{
+    height: 200px;
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+
+.container-imagem7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container2-imagem7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+}
+
+
+.glitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}

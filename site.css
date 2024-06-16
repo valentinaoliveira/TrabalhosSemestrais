@@ -1,0 +1,98 @@
+/* Define estilos globais para todos os elementos */
+* {
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    box-sizing: border-box; /* Altera o box model para incluir padding e borda no tamanho total do elemento */
+    overflow: hidden; /* Oculta qualquer conteúdo que exceda os limites dos elementos */
+}
+
+/* Estiliza o cabeçalho */
+.cabecalho {
+    background-color: #ab94e9; /* Define a cor de fundo do cabeçalho */
+    display: flex; /* Usa flexbox para o layout dos elementos filhos */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos igualmente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    width: 100%; /* Define a largura do cabeçalho para 100% do contêiner pai */
+    padding: 15px; /* Adiciona padding ao redor do conteúdo do cabeçalho */
+}
+
+/* Remove a margem do título dentro do cabeçalho */
+.cabecalho h1 {
+    margin: 0;
+}
+
+/* Estiliza o ícone do menu */
+.menu-icon {
+    display: flex; /* Usa flexbox para o layout dos elementos filhos */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    cursor: pointer; /* Mostra o cursor como uma mão apontando (indicando que é clicável) */
+}
+
+/* Estiliza cada barra dentro do ícone do menu */
+.menu-icon .bar {
+    width: 25px; /* Define a largura das barras */
+    height: 3px; /* Define a altura das barras */
+    background-color: #fff; /* Define a cor de fundo das barras */
+    margin: 4px 0; /* Adiciona margem vertical entre as barras */
+}
+
+/* Estiliza o menu */
+.menu {
+    background-color: #ab94e9; /* Define a cor de fundo do menu */
+    width: 100%; /* Define a largura do menu para 100% do contêiner pai */
+    text-align: center; /* Centraliza o texto no menu */
+    display: none; /* Esconde o menu por padrão */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+/* Estiliza a seção de matérias */
+.materias {
+    width: 95%; /* Define a largura das matérias para 95% do contêiner pai */
+    padding: 20px 0; /* Adiciona padding vertical */
+    background-color: #ab94e9; /* Define a cor de fundo */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    display: grid; /* Usa grid layout para organizar os itens */
+    gap: 15px; /* Define o espaçamento entre os itens da grid */
+}
+
+/* Estiliza os botões */
+button {
+    width: 90%; /* Define a largura dos botões */
+    background-color: rgb(230, 157, 219); /* Define a cor de fundo dos botões */
+    height: 50px; /* Define a altura dos botões */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    border: 1px solid transparent; /* Define uma borda transparente */
+    box-shadow: rgba(134, 72, 174, 0.2) 0px 2px 8px 0px; /* Adiciona uma sombra */
+    cursor: pointer; /* Mostra o cursor como uma mão apontando (indicando que é clicável) */
+    margin-left: 50px; /* Adiciona margem à esquerda */
+}
+
+/* Estiliza os botões quando o usuário passa o mouse sobre eles */
+button:hover {
+    background-color: #ab94e9; /* Muda a cor de fundo */
+}
+
+/* Estiliza a seção de conteúdo */
+.conteudo {
+    background-color: #facaea; /* Define a cor de fundo */
+    width: 100%; /* Define a largura para 100% do contêiner pai */
+    height: 89vh; /* Define a altura para 89% da altura da viewport */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza a foto de perfil */
+.foto-perfil {
+    overflow: hidden; /* Oculta qualquer conteúdo que exceda os limites do elemento */
+    background-color: #ab94e9; /* Define a cor de fundo */
+    width: 75px; /* Define a largura */
+    height: 75px; /* Define a altura */
+    border-radius: 120px; /* Adiciona bordas arredondadas */
+}
+
+/* Estiliza a imagem dentro da foto de perfil */
+.foto-perfil img {
+    width: 90px; /* Define a largura */
+    height: 90px; /* Define a altura */
+    border-radius: 100px; /* Adiciona bordas arredondadas */
+}
